@@ -1,0 +1,27 @@
+[
+  {
+    "id": "faq1",
+    "question": "How do I reset my company VPN password?",
+    "answer": "Go to vpn.company.com/reset, enter your employee ID, and you will receive an OTP on your registered email. Set a new password that is at least 10 characters long with one special character. If you don't receive the OTP within 5 minutes, contact IT helpdesk at ext 4422."
+  },
+  {
+    "id": "faq2",
+    "question": "My laptop is not connecting to the office WiFi",
+    "answer": "First forget the WiFi network and reconnect using SSID 'CompanyNet-5G'. If that fails, check if your network adapter driver is updated. Restart the laptop. If issue persists after these steps, raise a ticket on the IT portal under category 'Network Issues'."
+  },
+  {
+    "id": "faq3",
+    "question": "How do I request access to a new internal tool or software?",
+    "answer": "Submit an access request through the Internal Tools Portal (tools.company.com). Select the tool name, business justification, and your manager's email for approval. Access is usually granted within 2 business days after manager approval."
+  },
+  {
+    "id": "faq4",
+    "question": "What should I do if I accidentally delete a file from the shared drive?",
+    "answer": "Shared drives have version history enabled. Right click the folder, select 'Manage versions' or check the Recycle Bin of the shared drive within 30 days. For permanent deletions beyond 30 days, contact IT with the file path and approximate deletion date for backup recovery."
+  },
+  {
+    "id": "faq5",
+    "question": "How do I set up my email on my mobile phone?",
+    "answer": "Download the Outlook app, sign in with your company email (firstname.lastname@company.com) and your network password. If prompted for server settings, use mail.company.com as the Exchange server. Enable two-factor authentication if asked."
+  }
+]

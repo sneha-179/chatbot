@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases, indexes, caches, and generated stores
+backend/chroma_store/
+backend/bm25_store/
+backend/cache_store/
+chroma_store/
+bm25_store/
+cache_store/
+*.sqlite3
+*.db
+*.pkl
+
+# IDE and operating-system files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test and coverage output
+.coverage
+htmlcov/
+coverage.xml
+
+# Uploaded/generated documents
+backend/app/knowledge_base/*.pdf
